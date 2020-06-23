@@ -4,7 +4,7 @@ package June;
  * @Author: zhangdanjin
  * @Date: 2020/6/22 20:44
  */
-public class Solution_3 {
+public class Solution_2 {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
@@ -44,7 +44,7 @@ public class Solution_3 {
         ListNode l2 = new ListNode(4);
         l1.next = new ListNode(0);
 //        l2.next = new ListNode(3);
-        Solution_3 solution3 = new Solution_3();
+        Solution_2 solution3 = new Solution_2();
         ListNode listNode = solution3.addTwoNumbers(l1, l2);
     }
 }
